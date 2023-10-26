@@ -79,6 +79,7 @@ a{
     color: antiquewhite;
     font-family: 'Pridi', serif;
     font-weight: 200;
+    font-size: 30px;
     text-align: center;
     position: absolute;
     top: 50%;
@@ -97,7 +98,7 @@ a{
     font-size: 25pt;
     color: goldenrod;
     margin-bottom: 0px;
-    padding-top: 60px;  
+    padding-top: 45px;  
 }
 
 .letteringBold{
