@@ -30,6 +30,15 @@ nav a:hover{
     border-bottom: solid 1px #ddb99d;
 }
 
+@media screen and (max-width: 400px) {
+    .flex-nav a {
+        float: none;
+        width: 100%;
+
+    }
+    
+}
+
 .telefone{
     text-align: right;
     color:azure;
@@ -125,3 +134,31 @@ a{
     size: 40px;
 }
 
+@media (max-width:980px) {
+    .logo{
+        display: none;
+    }
+    .flex-nav{
+        flex-direction: column;
+    }
+    .flex-nav a{
+        display: flex;
+        justify-content: center;
+    }
+    .navbar-toggler-icon{
+        background-image: url(/img/bars-solid.svg);
+    }
+}
+
+.navbar-toggler-icon{
+    background-image: url(/img/bars-solid.svg);
+}
+
+.navbar-toggler:hover {
+    text-decoration: none;
+    color: #ddb99d;
+}
+button:focus:not(:focus-visible) {
+    outline: 0;
+    color: #ddb99d;
+}
