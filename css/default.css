@@ -30,14 +30,7 @@ nav a:hover{
     border-bottom: solid 1px #ddb99d;
 }
 
-@media screen and (max-width: 400px) {
-    .flex-nav a {
-        float: none;
-        width: 100%;
 
-    }
-    
-}
 
 .telefone{
     text-align: right;
@@ -133,7 +126,36 @@ a{
 .encomenda{
     size: 40px;
 }
+.form-contact input[type='text'],
+.form-contact input[type='tel'],
+.form-contact input[type='email'],
+.form-contact textarea{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #ddb99d;
+    border: solid 1px #eee;
+    border-radius: 5px;
+}
 
+.form-contact input[type='text']<
+.form-contact input[type='tel']<
+.form-contact input[type='email']<
+
+.form-contact button{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button{
+    padding: 5px 10px;
+    background-color: #fff;
+    border: solid 2px #ffaa00;
+}
+
+
+
+/*mobile*/
 @media (max-width:980px) {
     .logo{
         display: none;
@@ -161,4 +183,13 @@ a{
 button:focus:not(:focus-visible) {
     outline: 0;
     color: #ddb99d;
+}
+
+@media screen and (max-width: 400px) {
+    .flex-nav a {
+        float: none;
+        width: 100%;
+
+    }
+    
 }
